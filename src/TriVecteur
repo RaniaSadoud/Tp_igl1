@@ -20,5 +20,4 @@ public static void bubble_srt(int array[]) {
             array[j] = temp;
         }
        
-
-    }
+}
