@@ -27,7 +27,7 @@ public static void bubble_srt(int array[]) {
             }
             System.out.println("\n");
         }
-        public static void main(String[] args) {
+        public static void main(String[] args) { System.out.println("\n");
 
             Vector<Integer> vect = new Vector<Integer>();
             System.out.println("Taille de votre vecteur :");
@@ -40,7 +40,8 @@ public static void bubble_srt(int array[]) {
                 Scanner scanner3 = new Scanner(System.in);
                 int elem = scanner3.nextInt();
                 input[i]=elem;
-            }
+            } System.out.println("\n");
+             System.out.println("\n");
                 bubble_srt(input);
 
         }
