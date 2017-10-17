@@ -61,6 +61,10 @@ public class main
         System.out.print( m.maxVect(Tab1));
         System.out.print("le min d'un vecteurs ");
         System.out.print(mi.minVect(Tab2));
+       // tri du vecteurs 
+                bubble_srt(Tab1);
+        inverse(Tab1);
+
 
     }
 }
